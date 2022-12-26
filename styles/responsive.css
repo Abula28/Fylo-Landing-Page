@@ -1,0 +1,158 @@
+@media (max-width: 713px) {
+  section {
+    padding: 0px 24px 0px;
+  }
+  .navbar .logo {
+    width: 80px;
+    height: 24px;
+  }
+  .nav-list li:nth-child(1) {
+    padding-left: 0px;
+  }
+  .nav-list li {
+    padding: 5px 20px;
+  }
+  .nav-list li a {
+    font-size: 12px;
+  }
+  .info-div {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .info-div img {
+    width: 304px;
+    height: 225px;
+  }
+  .info-div .text {
+    width: 320px;
+    text-align: center;
+  }
+  .info-div .text h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .info-div .text p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .info-div .text form {
+    flex-direction: column;
+  }
+  .info-div .text form button {
+    margin: 16px 0px 0px 0px;
+  }
+  .sec-div {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 87px;
+  }
+  .sec-div .illustration-2 {
+    width: 320px;
+    height: 241px;
+  }
+  .sec-div .sec-text {
+    width: 320px;
+    justify-content: center;
+  }
+  .sec-div .sec-text h2 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .sec-div .sec-text .text-p {
+    text-align: center;
+    width: auto;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 36px;
+  }
+  .sec-div button {
+    margin: 0px auto 0px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .sec-div .quote-card {
+    width: 280px;
+    height: 170px;
+  }
+  .sec-div .quote-card .quote-div {
+    padding: 13px 13px 20px 26px;
+  }
+  .sec-div .quote-card .quote-div p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .sec-div .quote-card .guyinfo p {
+    font-size: 6px;
+    line-height: 12px;
+  }
+  .sec-div .quote-card .guyinfo p strong {
+    font-size: 9px;
+    line-height: 12px;
+  }
+  .third-sect-div {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .third-sect-div .third-text {
+    width: 300px;
+    text-align: center;
+  }
+  .third-sect-div .third-text h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .third-sect-div .third-text p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .third-sect-div form input {
+    padding: 11px 103px 9px 8px;
+  }
+  .third-sect-div form input::-moz-placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .third-sect-div form input:-ms-input-placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .third-sect-div form input::placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .third-sect-div form button {
+    width: auto;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .last-sect img {
+    width: 105px;
+    height: 30px;
+  }
+  .last-sect .last-sect-div {
+    position: relative;
+    border: 2px solid red;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .last-sect .last-sect-div .contact p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .last-sect .last-sect-div .list {
+    padding: 0px;
+  }
+  .last-sect .last-sect-div .list ul {
+    justify-content: flex-start;
+  }
+  .last-sect .last-sect-div .list ul li a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .last-sect .icons {
+    position: absolute;
+    bottom: 42px;
+    left: 35%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
